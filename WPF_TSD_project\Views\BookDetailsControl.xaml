@@ -1,0 +1,41 @@
+<UserControl x:Class="WPF_TSD_project.Views.BookDetailsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPF_TSD_project.Views"
+             xmlns:models="clr-namespace:HomeLibrary"
+             Height="Auto" Width="Auto">
+
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,5">
+            <TextBlock Text="ID" Width="100"/>
+            <TextBlock Text="{Binding Id}" />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="0,5">
+            <TextBlock Text="Title" Width="100"/>
+            <TextBox Text="{Binding Title}" Width="200"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="0,5">
+            <TextBlock Text="Author" Width="100"/>
+            <TextBox Text="{Binding Author}" Width="200"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="0,5">
+            <TextBlock Text="Year" Width="100"/>
+            <TextBox Text="{Binding Year}" Width="200"/>
+        </StackPanel>
+
+        <CheckBox Content="IsRead" IsChecked="{Binding IsRead}" Margin="0,5"/>
+
+        <StackPanel Orientation="Horizontal" Margin="0,5">
+            <TextBlock Text="Format" Width="100"/>
+            <ComboBox SelectedItem="{Binding Format}" Width="200">
+                <ComboBoxItem Content="PaperBack"/>
+                <ComboBoxItem Content="EBook"/>
+            </ComboBox>
+        </StackPanel>
+
+        <Button Content="Delete" Click="DeleteButton_Click" Margin="0,10"/>
+    </StackPanel>
+</UserControl>

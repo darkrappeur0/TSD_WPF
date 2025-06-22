@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WPF_TSD_project/1.0.0": {
+        "runtime": {
+          "WPF_TSD_project.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WPF_TSD_project/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
