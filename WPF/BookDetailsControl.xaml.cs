@@ -21,7 +21,8 @@ namespace HomeLibrary
 
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
-            if (MessageBox.Show("Do you really want to delete this book?", "Confirm", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            
+            if (MessageBox.Show("Do you really want to delete this book?", "Confirm", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
                 DeleteRequested?.Invoke(this, SelectedBook);
             }
