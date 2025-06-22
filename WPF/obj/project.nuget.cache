@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "YfBjDLcziok=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\toto7\\Downloads\\HomeLibraryTerminalReady\\HomeLibrarySolution\\HomeLibrary\\HomeLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\toto7\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\toto7\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\toto7\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\toto7\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
